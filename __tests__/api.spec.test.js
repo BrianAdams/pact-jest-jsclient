@@ -11,6 +11,7 @@ describe("Dog's API", () => {
 
   describe("works", () => {
     beforeEach(() => {
+        //Setup the proxy
       const interaction = {
         state: 'i have a list of projects',
         uponReceiving: 'a request for projects',
