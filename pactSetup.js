@@ -10,5 +10,6 @@ global.provider = new Pact({
   spec: 2,
   pactfileWriteMode: 'update',
   consumer: 'MyConsumer',
-  provider: 'MyProvider'
+  provider: 'MyProvider',
+  cors: true
 })
